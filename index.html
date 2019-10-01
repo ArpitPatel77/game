@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's Play Game!!!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="scoreboard">
+      Wins: 0 - Loses: 0 - Ties: 0
+    </div>
+    <div id="radio-group">
+      <label>
+        <input type="radio" checked name="option" value="scissors" />
+        Scissors
+      </label>
+      <label>
+        <input type="radio" name="option" value="paper" />
+        Paper
+      </label>
+      <label>
+        <input type="radio" name="option" value="rock" />
+        Rock
+      </label>
+    </div>
+    <div>
+    	<button type="button" id="rps-choose">Click If you are ready!</button>
+    </div>
+    <div>
+      <h1 id="player-choice">You choose:</h1>
+      <h1 id="computer-choice">Computer choose:</h1>
+      <h2 id="result-message"></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

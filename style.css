@@ -1,0 +1,35 @@
+body{
+	background-color: #BADA55;
+	text-align: center;
+	padding-top: 160px;
+}
+#scoreboard {
+	padding-bottom: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#radio-group {
+	padding-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: #f1f1f1; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#rps-choose {
+	border-radius: 12px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
